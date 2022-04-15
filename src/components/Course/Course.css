@@ -1,0 +1,9 @@
+.course{
+      display: flex;
+}
+.subject-container{
+      width: 70%;
+      border-right: 1px solid darkgray;
+      margin-right: 20px;
+      margin-top: 10px;
+}
