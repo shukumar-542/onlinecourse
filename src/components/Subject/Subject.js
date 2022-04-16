@@ -1,5 +1,6 @@
 import React from 'react';
 import './Subject.css'
+import { Button,Card } from 'react-bootstrap';
 
 const Subject = (props) => {
       console.log(props);
@@ -9,7 +10,10 @@ const Subject = (props) => {
                  <h1>Course Name: {course}</h1> 
                  <p>Course Fees : ${fees}</p>
                  <p> Teachers : {instructor}</p>
-                 <button onClick={()=>props.handleEnroll(props.sub)}>Enroll Now</button>
+
+                
+                 <Button onClick={()=>props.handleEnroll(props.sub)}>Enroll Now</Button>
+                 
             </div>
       );
 };
